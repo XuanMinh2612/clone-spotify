@@ -7,7 +7,7 @@ import girl from "../image/girl.jpg";
 function Navbar() {
   return (
     <div className="h-full flex flex-col">
-      <div className="bg-[#242424] w-full h-1/6 rounded-lg ">
+      <div className="bg-[#242424] w-full h-1/6 rounded-lg items-center flex">
         <div className="flex flex-col">
           <div className="flex flex-row p-3 items-center text-white text-2xl font-mono">
             <AiFillHome className="" />
