@@ -2,10 +2,10 @@ import React from "react";
 
 function Plays({ items }) {
   return (
-    <div className="bg-yellow-200 h-20 w-full absolute bottom-0 flex flex-row justify-between">
+    <div className="bg-black h-20 w-[1450px] absolute bottom-0 flex flex-row justify-between items-center">
       <div></div>
-      <div>
-        <audio src={items?.hub?.actions?.[1]?.uri} controls />
+      <div className="">
+        <audio src={items?.hub?.actions?.[1]?.uri} controls className="" />
       </div>
       <div></div>
     </div>

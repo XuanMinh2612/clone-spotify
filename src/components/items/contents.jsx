@@ -40,7 +40,7 @@ function Content(items) {
     console.log();
   }, []);
   return (
-    <div className="bg-blue-300 w-full h-fit flex flex-col p-3">
+    <div className="bg-black w-full h-fit flex flex-col p-3">
       <div>
         <span className="text-white font-semibold text-5xl px-5 mt-3">
           All music
@@ -65,7 +65,10 @@ function Content(items) {
                 </p>
               </div>
               {hoveredIndex === index && (
-                <BiRightArrow className="h-fit w-fit p-3 rounded-full bg-green-400 text-black ml-4 mr-2  hover:scale-125 transition-transform duration-300 " />
+                <BiRightArrow
+                  onClick={() => setPlaySongs(items)}
+                  className="h-fit w-fit p-3 rounded-full bg-green-400 text-black ml-4 mr-2  hover:scale-125 transition-transform duration-300 "
+                />
               )}
             </div>
           ))}
