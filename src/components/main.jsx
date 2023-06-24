@@ -4,7 +4,7 @@ import Content from "./items/contents";
 
 function Main() {
   return (
-    <div className="h-screen bg-green-300 p-2 flex flex-col">
+    <div className="h-screen bg-black p-2 flex flex-col">
       <Header />
       <Content />
     </div>
