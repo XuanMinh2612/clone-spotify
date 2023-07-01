@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { BiRightArrow, BiLeftArrow } from "react-icons/bi";
 import { AiOutlineCloudDownload } from "react-icons/ai";
 import girl from "../../image/girl.jpg";
+import congcong from "../../image/congcong.jpg";
 
 function Header() {
   const [hoveredIndex, setHoveredIndex] = useState(null);

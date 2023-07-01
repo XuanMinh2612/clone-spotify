@@ -4,6 +4,7 @@ import { BiSearch, BiLibrary } from "react-icons/bi";
 import { FiPlus } from "react-icons/fi";
 import { BsFillCaretDownFill, BsDot } from "react-icons/bs";
 import girl from "../image/girl.jpg";
+import congcong from "../image/congcong.jpg";
 function Navbar() {
   return (
     <div className="h-full flex flex-col">
