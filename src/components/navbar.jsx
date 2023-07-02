@@ -6,11 +6,15 @@ import { BsFillCaretDownFill, BsDot } from "react-icons/bs";
 import girl from "../image/girl.jpg";
 import congcong from "../image/congcong.jpg";
 function Navbar() {
+  const refresh = () => window.location.reload(true);
   return (
     <div className="h-full flex flex-col">
       <div className="bg-[#242424] w-full h-1/6 rounded-lg items-center flex">
         <div className="flex flex-col">
-          <div className="flex flex-row p-3 items-center text-white text-2xl font-mono">
+          <div
+            className="flex flex-row p-3 items-center text-white text-2xl font-mono"
+            onClick={() => window.location.reload(true)}
+          >
             <AiFillHome className="" />
             <span className=" pl-4">Home</span>
           </div>
