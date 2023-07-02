@@ -22,7 +22,7 @@ function Content() {
       const options = {
         method: "GET",
         url: "https://shazam-core.p.rapidapi.com/v1/charts/country",
-        params: { country_code: "VE" },
+        params: { country_code: "VN" },
         headers: {
           "X-RapidAPI-Key":
             "25afd00c31msh690f22c6a3516c0p1799adjsn0eade0e56e0b",
